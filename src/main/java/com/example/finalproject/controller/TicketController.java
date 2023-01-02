@@ -77,7 +77,7 @@ public class TicketController {
 	
 	@DeleteMapping("/{id}")
 	@ApiOperation(value = "", authorizations = {@Authorization(value = "apiKey")})
-    @PreAuthorize("hasRole('ADMIN')")
+    @PreAuthorize("hasAnyRole('ADMIN','USER')")
 	public ResponseEntity<?> deleteTicket(@PathVariable(value="id") Long id) {
 		String result = "";
 		try {
