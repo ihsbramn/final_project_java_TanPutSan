@@ -18,4 +18,4 @@ TRANSPORTATION RESERVATION SYSTEM
 
 - Ikhsan Abdurachman
 - Putri Ester
-- Tania Arsha
+- Tania Arsyat Syahara
